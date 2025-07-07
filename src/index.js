@@ -1,3 +1,4 @@
+import './style.css';
 import {loadpage }  from './initial_page_load';
 import { loadAboutUsPage } from './about_page';
 import { loadContactUspage } from './contact_us_page';
@@ -44,7 +45,7 @@ function hideWebsites(home, contact, aboutus) {
     console.log('after removing');
 
     // Get collections of elements with the specified classes
-    const menuPages = document.querySelectorAll('.menupage');
+    const menuPages = document.querySelectorAll('.aboutuspage');
     const contactPages = document.querySelectorAll('.contactpage');
     const homePages = document.querySelectorAll('.homepage');
 
