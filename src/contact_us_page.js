@@ -8,7 +8,7 @@ export function loadContactUspage() {
     `<ul>
     <li><a href="#" class="home-page">Home</a></li>
     <li><a href="#"class="contact-page">Contact Us</a></li>
-    <li><a href="#" class="aboutus-page">Menu</a></li>
+    <li><a href="#" class="aboutus-page">About Us</a></li>
     </ul>`
     allContent.appendChild(navbar);
     
