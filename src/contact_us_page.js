@@ -21,19 +21,31 @@ export function loadContactUspage() {
     //main-part
     let body = document.createElement('div')
     body.className = 'body contactpage'
-    body.innerHTML = `<div class="middle">
-    <div class="res-shorter">
-        <p class="res-title">Ms Drader</p>
-        <p class="res-discription">123-456-7890</p>
+    body.innerHTML = `<body class="contact-page">
+
+  <div class="contact-section">
+    <h1>Contact Us</h1>
+    <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+
+    <div class="contact-info">
+      <div class="contact-box">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>ADDRESS</h3>
+        <p>27 13 Lowe Haven</p>
+      </div>
+      <div class="contact-box">
+        <i class="fas fa-phone-alt"></i>
+        <h3>PHONE</h3>
+        <p>111 343 43 43</p>
+      </div>
+      <div class="contact-box">
+        <i class="fas fa-file-alt"></i>
+        <h3>EMAIL</h3>
+        <p>business@info.com</p>
+      </div>
     </div>
-    <div class="res-shorter">
-        <p class="res-title">Ms Butler</p>
-        <p class="res-discription">123-456-7890</p>
-    </div>
-    <div class="res-shorter">
-        <p class="res-title">Mr Fan</p>
-        <p class="res-discription">123-456-7890</p>
-    </div>
-    </div>`
+  </div>
+
+</body>`
     allContent.appendChild(body)
 }
